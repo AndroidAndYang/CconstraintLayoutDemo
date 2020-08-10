@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingConstraints"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="button" />
+
+    <!--
+       layout_constraintCircle 指定那个控件使用圆形定位
+       layout_constraintCircleAngle  角度
+       layout_constraintCircleRadius 半径（指定控件的中心位置到圆形定位的中心位置，具体看angel_des图片）
+    -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="角度定位"
+        app:layout_constraintCircle="@id/button1"
+        app:layout_constraintCircleAngle="120"
+        app:layout_constraintCircleRadius="150dp"/>
+
+    <ImageView
+        android:src="@mipmap/angel_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

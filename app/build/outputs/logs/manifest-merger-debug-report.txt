@@ -1,0 +1,163 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/e2228b4ceaa0c3d7f71773322072109c/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/db0adeef2e70ae109d9dd860070e84b3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/422fb1e6f694d0dead20fde52886ab32/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/ca6e0b63b48b0224a9116d2607c505b0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/f5f8eb80d24e2513902dbcf22c0d5495/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/3b9e995bee6af87e7b79e5e8e8b15300/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/3130fa73e4c86ee6362a54a22a00b167/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/b11960db39549c0196ac34e848a41f7b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/aba21211786d964ccddd36a250367b67/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/b71b9c5937a381d7bff88594ab502c0a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/365179d35ba29026159d4531f6489f40/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/d33fab9e4c5c6d0e3870482ee1c51f88/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/2535c951ef603b953855763f37759cd0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/ea68a35c974c667bfb50e6f159b9decc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/6789ed2c702394f6aaf29cfe21d5abd0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/302feba20cb17910caf3a14d524eb182/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/365dd188551e78c84248b5e210b7c7e7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/e11bd33188d08e9fb2a6da6bb473bd4c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/0685f85b7d869e0cf0f9a4c54bcd57cb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/7b61b6e27423114e884aa81f21cba5bf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/21268c01cc5a6ccc6739a6a781e42df0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/f9f6a1d94bab4947c6e31cb6ee3d2821/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:3:5-27
+		INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:5:5-25:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/422fb1e6f694d0dead20fde52886ab32/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/422fb1e6f694d0dead20fde52886ab32/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/2535c951ef603b953855763f37759cd0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/2535c951ef603b953855763f37759cd0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/6789ed2c702394f6aaf29cfe21d5abd0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/6789ed2c702394f6aaf29cfe21d5abd0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/2535c951ef603b953855763f37759cd0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.yjz.demo.MainActivity
+ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.yjz.demo.RelativeActivity
+ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:19:9-53
+	android:name
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:19:19-51
+activity#com.yjz.demo.AngleActivity
+ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:20:9-50
+	android:name
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:20:19-48
+activity#com.yjz.demo.MarginActivity
+ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:21:9-51
+	android:name
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:21:19-49
+activity#com.yjz.demo.SizeActivity
+ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:22:9-49
+	android:name
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:22:19-47
+activity#com.yjz.demo.ChainActivity
+ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:23:9-50
+	android:name
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:23:19-48
+activity#com.yjz.demo.AssistActivity
+ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:24:9-51
+	android:name
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml:24:19-49
+uses-sdk
+INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/e2228b4ceaa0c3d7f71773322072109c/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/e2228b4ceaa0c3d7f71773322072109c/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/db0adeef2e70ae109d9dd860070e84b3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/db0adeef2e70ae109d9dd860070e84b3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/422fb1e6f694d0dead20fde52886ab32/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/422fb1e6f694d0dead20fde52886ab32/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/ca6e0b63b48b0224a9116d2607c505b0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/ca6e0b63b48b0224a9116d2607c505b0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/f5f8eb80d24e2513902dbcf22c0d5495/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/f5f8eb80d24e2513902dbcf22c0d5495/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/3b9e995bee6af87e7b79e5e8e8b15300/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/3b9e995bee6af87e7b79e5e8e8b15300/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/3130fa73e4c86ee6362a54a22a00b167/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/3130fa73e4c86ee6362a54a22a00b167/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/b11960db39549c0196ac34e848a41f7b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/b11960db39549c0196ac34e848a41f7b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/aba21211786d964ccddd36a250367b67/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/aba21211786d964ccddd36a250367b67/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/b71b9c5937a381d7bff88594ab502c0a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/b71b9c5937a381d7bff88594ab502c0a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/365179d35ba29026159d4531f6489f40/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/365179d35ba29026159d4531f6489f40/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/d33fab9e4c5c6d0e3870482ee1c51f88/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/d33fab9e4c5c6d0e3870482ee1c51f88/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/2535c951ef603b953855763f37759cd0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/2535c951ef603b953855763f37759cd0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/ea68a35c974c667bfb50e6f159b9decc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/ea68a35c974c667bfb50e6f159b9decc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/6789ed2c702394f6aaf29cfe21d5abd0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/6789ed2c702394f6aaf29cfe21d5abd0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/302feba20cb17910caf3a14d524eb182/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/302feba20cb17910caf3a14d524eb182/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/365dd188551e78c84248b5e210b7c7e7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/365dd188551e78c84248b5e210b7c7e7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/e11bd33188d08e9fb2a6da6bb473bd4c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/e11bd33188d08e9fb2a6da6bb473bd4c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/0685f85b7d869e0cf0f9a4c54bcd57cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/0685f85b7d869e0cf0f9a4c54bcd57cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/7b61b6e27423114e884aa81f21cba5bf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/7b61b6e27423114e884aa81f21cba5bf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/21268c01cc5a6ccc6739a6a781e42df0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/21268c01cc5a6ccc6739a6a781e42df0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/f9f6a1d94bab4947c6e31cb6ee3d2821/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Applications/Android Studio.app/Contents/gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/f9f6a1d94bab4947c6e31cb6ee3d2821/AndroidManifest.xml:20:5-44
+INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yang/AndroidStudioProjects/workspace/ConstraintLayoutDemo/app/src/main/AndroidManifest.xml

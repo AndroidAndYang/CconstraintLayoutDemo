@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingConstraints"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChainActivity">
+
+    <!--
+        1.链式约束：在链头使用layout_constraintHorizontal_chainStyle设置对应的style
+          layout_constraintHorizontal_chainStyle：
+                spread 默认，均分所有的链均分显示
+                inside 链的两端贴近parent
+                PACKED
+        2.权重链 layout_constraintHorizontal_weight：和LinearLayout的weight一样，设置比例
+    -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text1"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintRight_toLeftOf="@id/text2"
+            android:background="@color/colorPrimary"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:text="text2"
+            android:background="@color/colorPrimaryDark"
+            app:layout_constraintLeft_toRightOf="@+id/text1"
+            app:layout_constraintRight_toLeftOf="@id/text3"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:text="text3"
+            app:layout_constraintLeft_toRightOf="@id/text2"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--  spread_inside  -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/spread_inside"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text4"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintRight_toLeftOf="@id/text5"
+            android:background="@color/colorPrimary"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:text="text5"
+            android:background="@color/colorPrimaryDark"
+            app:layout_constraintLeft_toRightOf="@+id/text4"
+            app:layout_constraintRight_toLeftOf="@id/text6"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:text="text6"
+            app:layout_constraintLeft_toRightOf="@id/text5"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--  PACKED  -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/packed"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/spread_inside"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text7"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintRight_toLeftOf="@id/text8"
+            android:background="@color/colorPrimary"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:text="text8"
+            android:background="@color/colorPrimaryDark"
+            app:layout_constraintLeft_toRightOf="@+id/text7"
+            app:layout_constraintRight_toLeftOf="@id/text9"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:text="text9"
+            app:layout_constraintLeft_toRightOf="@id/text8"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--  权重链  -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/packed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text10"
+            app:layout_constraintRight_toLeftOf="@id/text11"
+            android:background="@color/colorPrimary"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_weight="2"
+            android:text="text10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text11"
+            android:text="text11"
+            android:background="@color/colorPrimaryDark"
+            app:layout_constraintHorizontal_weight="3"
+            app:layout_constraintLeft_toRightOf="@+id/text10"
+            app:layout_constraintRight_toLeftOf="@id/text12"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text12"
+            android:text="text12"
+            app:layout_constraintLeft_toRightOf="@id/text11"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="0dp"
+            app:layout_constraintHorizontal_weight="4"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

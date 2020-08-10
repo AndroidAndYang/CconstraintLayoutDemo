@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingConstraints"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+        minWidth 最小宽度
+        minHeight 最小高度
+        maxWidth 最大宽度
+        maxHeight 最大高度
+        如果ConstraintLayout的版本低于1.1的时候需要加上constrainedWidth以及constrainedHeight
+    -->
+
+    <TextView
+        android:id="@+id/top"
+        android:text="1234"
+        android:background="@color/colorAccent"
+        android:minWidth="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <!--
+        1.如果指定控件的高度或者宽度为match_parent，在ConstraintLayout中不推荐使用match_parent，推荐使用0dp。
+        2.如果宽度使用0dp的时候，需要指定layout_constraintLeft_toLeftOf为parent以及layout_constraintRight_toRightOf为parent，
+          如果不指定0dp不生效。
+        3.如果宽或高有一个为0dp，则可以使用layout_constraintDimensionRatio指定宽高比
+    -->
+    <TextView
+        android:id="@+id/zero"
+        android:text="dadasda"
+        app:layout_constraintTop_toBottomOf="@+id/top"
+        android:layout_width="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"/>
+
+    <!--
+        layout_constraintDimensionRatio 还可以指定以宽或者高为比例，例如："W,2:3"表示为宽:高=2:3，
+        "H,2:3"指的是 高:宽=2:3
+    -->
+    <TextView
+        android:text="dadasda"
+        app:layout_constraintTop_toBottomOf="@+id/zero"
+        android:layout_width="0dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/colorAccent"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingConstraints"
+    tools:context=".RelativeActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:text="text1"
+        android:padding="20dp"
+        android:background="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- layout_constraintLeft_toRightOf 将text2的左边约束到text1右边   -->
+    <TextView
+        android:id="@+id/text2"
+        android:text="控件右边，下部对齐"
+        app:layout_constraintLeft_toRightOf="@+id/text4"
+        app:layout_constraintBottom_toBottomOf="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!--
+        layout_constraintTop_toBottomOf 将当前控件的上边约束到指定的ID的控件的下面，也就是将text3的上边约束到text2的下边
+        layout_constraintLeft_toLeftOf 将当前控件的左边约束到指定控件的左边，也就是居左对齐
+
+    -->
+
+    <TextView
+        android:id="@+id/text3"
+        app:layout_constraintLeft_toRightOf="@+id/text2"
+        app:layout_constraintTop_toBottomOf="@+id/text2"
+        android:text="控件下面，靠右对齐"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/text2"
+        app:layout_constraintTop_toBottomOf="@+id/text3"
+        android:text="控件下面，靠左对齐"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!--
+        layout_constraintRight_toRightOf = parent 在屏幕右边
+        layout_constraintLeft_toLeftOf = parent 在屏幕左边
+        两个一起写则水平居中
+    -->
+    <TextView
+        android:id="@+id/text5"
+        android:text="水平剧中"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text7"
+        app:layout_constraintTop_toBottomOf="@+id/text5"
+        android:text="高度高时，低的控件水平对齐"
+        android:padding="20dp"
+        android:background="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toRightOf="@+id/text7"
+        app:layout_constraintBaseline_toBaselineOf="@+id/text7"
+        android:text="水平对齐"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
